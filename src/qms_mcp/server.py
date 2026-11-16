@@ -474,3 +474,8 @@ def review_gate_checklist(project_id: str = "PRJ-1003") -> str:
 
 注意：数据是合成测试夹具；你的结论是评审输入，不是自动合规判定。
 """
+
+
+if __name__ == "__main__":
+    # 默认 stdio 传输：MCP 客户端（Claude Desktop / Claude Code 等）通过管道拉起本进程。
+    mcp.run()
